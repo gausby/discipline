@@ -1,0 +1,32 @@
+{
+    "name": "discipline",
+    "version": "0.0.1",
+    "description": "Validates object properties using Pursuit queries.",
+    "keywords": ["input", "object", "validation", "validator", "pursuit"],
+    "author": "Martin Gausby <martin@gausby.dk>",
+    "license": "MIT",
+    "repository": "git@github.com:gausby/discipline.git",
+    "bugs": {
+        "url" : "https://github.com/gausby/discipline/issues",
+        "email" : "martin@gausby.dk"
+    },
+    "main": "lib/discipline.js",
+    "dependencies": {
+        "pursuit": "0.2.2"
+    },
+    "devDependencies": {
+        "grunt": "0.4.1",
+        "grunt-buster": "0.2.1",
+        "grunt-connect": ">= 0.2.0",
+        "grunt-contrib-jshint": "0.6.4",
+        "grunt-contrib-watch": "0.5.3",
+        "grunt-contrib-yuidoc": ">= 0.5.0",
+        "grunt-clear": "0.2.1",
+        "grunt-benchmark": ">= 0.2.0",
+        "buster": "0.7.6"
+    },
+    "scripts": {
+        "test": "grunt test"
+    },
+    "engine": "*"
+}
