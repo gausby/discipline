@@ -19,9 +19,9 @@ It is published to [NPM][npm] under the name **discipline**.
 ## Usage
 It works by parsing an object to the discipline function. This object will henceforth be refeered to as the 'schema.' The keys in the schema correspond to the name of the key on the input object, and the value is an object with the following keys:
 
-    * **check** a Pursuit query. It should describe the valid value.
-    * **message** a message that will be passed to the resulting issues object, should the property be invalid
-    * **type** The type of error. This defaults to `error`.
+  * **check** a Pursuit query. It should describe the valid value.
+  * **message** a message that will be passed to the resulting issues object, should the property be invalid
+  * **type** The type of error. This defaults to `error`.
 
 See the *examples section* for examples of usage.
 
