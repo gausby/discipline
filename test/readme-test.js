@@ -25,7 +25,7 @@ buster.testCase('Claims made in the README.md', {
                     { equals: 'Hello' },
                     { equals: 'Goodbye' }
                 ],
-                message: 'Should be one of foo or bar'
+                message: 'Should be either "Hello" or "Goodbye"'
             }
         });
 

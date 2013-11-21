@@ -45,7 +45,7 @@ Discipline can be used to check function input values. This is illustrated in th
                 { equals: 'Hello' },
                 { equals: 'Goodbye' }
             ],
-            message: 'Should be one of foo or bar'
+            message: 'Should be either "Hello" or "Goodbye"'
         }
     });
 
@@ -69,7 +69,7 @@ Discipline can be used to check function input values. This is illustrated in th
     // valid data input
     test(undefined, 'World', 'Hello'); // returns 'Hello, World!'
 
-The input does not need to be an arguement list. Plain old object literates works as well (of Course).
+The input does not need to be an arguement list. Plain old object literates works as well (of course).
 
     var discipline = require('discipline');
 

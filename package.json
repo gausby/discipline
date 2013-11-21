@@ -1,6 +1,6 @@
 {
     "name": "discipline",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Validates object properties using Pursuit queries.",
     "keywords": ["input", "object", "validation", "validator", "pursuit"],
     "author": "Martin Gausby <martin@gausby.dk>",
@@ -12,7 +12,7 @@
     },
     "main": "lib/discipline.js",
     "dependencies": {
-        "pursuit": "0.2.2"
+        "pursuit": "0.2.3"
     },
     "devDependencies": {
         "grunt": "0.4.1",
